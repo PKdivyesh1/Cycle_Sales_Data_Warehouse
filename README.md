@@ -49,5 +49,3 @@ This project demonstrates the design and implementation of a full **Data Warehou
 
 ---
 
-## 📁 Folder Structure
-
