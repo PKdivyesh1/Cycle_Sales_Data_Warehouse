@@ -1,51 +1,103 @@
-# 🏗️ End-to-End Data Warehouse & ETL Pipeline Project
+# Bike Sales Data Warehouse & Analytics
 
-This project demonstrates the design and implementation of a full **Data Warehouse architecture** using Microsoft BI tools — including **ETL with SSIS**, **reporting with SSRS**, and a **star schema** data model.
+## Project Overview
 
----
+This project demonstrates the design and implementation of a **Bike Sales Data Warehouse** using **Microsoft SQL Server, SSIS, and Tableau**.
+The goal of the project is to build an end-to-end data pipeline that extracts raw sales data, transforms it using ETL processes, stores it in a structured **data warehouse**, and visualizes key business insights through dashboards.
 
-## 📦 Project Overview
+The system enables analysis of:
 
-**Domain:** Sales
-**Goal:** Build a scalable and efficient data warehouse pipeline from raw transactional data to analytical reports.
-
----
-
-## 🧩 Components
-
-### 1. Data Storage & Staging
-- Source data ingested into staging tables using flat files or OLEDB.
-- Cleaned and validated using SQL scripts.
-
-### 2. ETL Process (SSIS)
-- **Tool:** SQL Server Integration Services (SSIS)
-- Steps:
-  - Extract from source (CSV/Excel/DB)
-  - Apply transformation rules (type conversions, lookups, joins)
-  - Load into staging → dimension → fact tables
-- **File:** Located in `/SSIS_Package/`
-
-### 3. Data Warehouse Design
-- **Schema:** Star Schema  
-- **Fact Table:** [e.g., FactSales]  
-- **Dimension Tables:** DimDate, DimCustomer, DimProduct, etc.
-- **File:** Diagram available in `/Star_Schema_Diagram/`
-
-### 4. Reporting (SSRS)
-- Built dashboards and paginated reports with KPIs.
-- Exported samples available in `/SSRS_Reports/`
+* Sales performance
+* Revenue trends
+* Top companies by revenue
+* Best performing employees
+* Category-wise sales
 
 ---
 
-## ⚙️ Technologies Used
+## Tech Stack
 
-| Tool/Tech | Purpose |
-|----------|---------|
-| SQL Server | Data warehouse and staging |
-| SSIS | ETL workflows |
-| SSRS | BI reporting |
-| T-SQL | Data modeling & transformation |
-| Star Schema | DW modeling technique |
+* **Database:** Microsoft SQL Server
+* **ETL Tool:** SQL Server Integration Services (SSIS)
+* **Visualization:** Tableau
+* **Data Modeling:** Star Schema (Fact & Dimension Tables)
 
 ---
 
+## Data Warehouse Architecture
+
+The data warehouse follows a **Star Schema design** consisting of one fact table and multiple dimension tables.
+
+**Fact Table**
+
+* `BikeSales_Fact`
+
+**Dimension Tables**
+
+* `Employee_Dim`
+* `Partner_Dim`
+* `Product_Dim`
+* `Salesorder_Dim`
+
+These tables enable efficient analytical queries and business intelligence reporting.
+
+---
+
+## ETL Pipeline
+
+The ETL pipeline was developed using **SSIS** to process and load data into the data warehouse.
+
+Key ETL operations include:
+
+* Data extraction from source systems
+* Lookup transformations for dimension keys
+* Derived column transformations
+* Data type conversions
+* Loading cleaned data into fact tables
+
+---
+
+## Tableau Dashboard
+
+The Tableau dashboard provides visual insights into bike sales data, including:
+
+* Net revenue by year
+* Top 10 companies by revenue
+* Best employee by sales
+* Top category by sales
+
+These visualizations help identify sales trends and business performance.
+
+---
+
+## Project Structure
+
+```
+Bike-Sales-Data-Warehouse
+│
+├── CREATE DATABASE bikesales_DW Query.txt
+├── Dimension_model.png
+├── Data Flow.png
+├── Bike Sales Analysis Dashboard.png
+├── Best Emp by sales.png
+├── Net revenue by year.png
+├── Top 10 Companies by revenue.png
+├── Top category By sales.png
+└── README.md
+```
+
+---
+
+## Key Features
+
+* Designed a **Star Schema Data Warehouse**
+* Implemented **ETL pipelines using SSIS**
+* Integrated **fact and dimension tables**
+* Built **interactive Tableau dashboards**
+* Generated insights for **sales performance analysis**
+
+---
+
+## Author
+
+**Divyesh Soni**
