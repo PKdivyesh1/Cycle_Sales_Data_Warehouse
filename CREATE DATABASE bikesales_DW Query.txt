@@ -1,0 +1,56 @@
+CREATE DATABASE bikesales_DW
+GO
+USE bikesales_DW
+GO
+CREATE TABLE Product_Dim
+( ProductKey INT NOT NULL IDENTITY,
+ProductID VARCHAR(15),
+ProductCategory VARCHAR(100),
+Price int,
+PartnerID VARCHAR(20),
+PRIMARY KEY (ProductKey));
+GO
+CREATE TABLE Employee_Dim
+(EmployeeKey INT NOT NUll IDENTITY,
+EmployeeID	VARCHAR(15),
+fname CHAR(50),
+Lname CHAR(50),
+Gender CHAR(10),
+Email VARCHAR(50),
+Login_name VARCHAR(50),
+PRIMARY KEY (EmployeeKey));
+GO
+CREATE TABLE Salesorder_Dim
+(
+SalesorderKey INT NOT NULL IDENTITY,
+SalesorderID VARCHAR(15),
+CreatedBY INT,
+CreatedAT DATE,
+PartnerID VARCHAR(15),
+Quantity INT,
+PRIMARY KEY (SalesorderKey));
+GO
+
+CREATE TABLE Partner_Dim
+(PartnerKey INT NOT NULL IDENTITY,
+PartnerID CHAR(15),
+Company_Name VARCHAR(50),
+Email VARCHAR(50),
+Ph_number VARCHAR(20),
+PRIMARY KEY (PartnerKey));
+GO
+CREATE TABLE Bikesales_Fact
+(
+ProductKey INT,
+EmployeeKey INT,
+SalesorderKey INT,
+PartnerKey INT,
+Quantity_sold INT,
+Total_revenue INT,
+PRIMARY KEY(ProductKey),
+FOREIGN KEY (Salesorderkey) REFERENCES Salesorder_Dim (SalesorderKey),
+FOREIGN KEY (PartnerKey) REFERENCES Partner_Dim (PartnerKey),
+FOREIGN KEY (Productkey) REFERENCES Product_Dim (ProductKey),
+FOREIGN KEY (EmployeeKey) REFERENCES Employee_Dim(EmployeeKey)
+);
+
