@@ -1,5 +1,5 @@
 # Bike Sales Data Warehouse & Analytics
-
+![Bike Sales Dashboard](Bike%20Sales%20Analysis%20Dashboard.png)
 ## Project Overview
 
 This project demonstrates the design and implementation of a **Bike Sales Data Warehouse** using **Microsoft SQL Server, SSIS, and Tableau**.
