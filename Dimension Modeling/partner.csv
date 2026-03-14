@@ -1,0 +1,81 @@
+﻿PartnerKey,PartnerID,Company_Name,Email,Ph_number
+81,100000000,All For Bikes,maria.brown@all4bikes.com,622734567
+82,100000001,Amaze Bikes Inc,bob.buyer@amazebikes.com,3088530
+83,100000002,Arena Sports Inc,victor.sanchez@arenasportusa.com,3023352668
+84,100000003,Atlanta Corp Inc,franklin.jones@atlantausa.com,511403266
+85,100000004,Bike World Inc,robert_brown@bikeworlds.com,2244668800
+86,100000005,Alpha AG,bart.koenig@alphabikes.de,2511415
+87,100000006,BuchungsKreis 1010,sarah.schwind@buchungkreis-gmbh.de,9078563412
+88,100000007,Trek Cycle AG,mirjam.schmidt@trekcycle-berlin.de,149744423
+89,100000008,Tona Bikes AG,saskia.sommer@tonabikes-ag.de,7257716
+90,100000009,Meine Bicycle,dagmar.schulze@meinebicyclebayern.de,1133557799
+91,100000010,Avante Grande Bikes,jorgemontalban@avantegrande.co.uk,6789012345
+92,100000011,Bike On,johanna.esther@bikeon.co.uk,6623612804
+93,100000012,Carefree Cycles,miguel.luengo@carefreecycles.com,2589436180
+94,100000013,G&M Bicycle,isabel.nemours@gnmbikes.co.uk,4507867136
+95,100000014,Keep Cycling,igor.tarassow@keepcycling-london.co.uk,5850428367
+96,100000015,iCare Australia,alexis.harper@icareaussie.com.au,7609448173
+97,100000016,CC SportWorld,c.alfaro@ccsport.com.au,6879342945
+98,100000017,DigiPay,sven.j@digipay.com.au,2208791738
+99,100000018,TechCycle Canberra,yoshiko.kakuji@techcyclecanberra.com.au,4440238917
+100,100000019,eBike 100,alessio.galasso@ebike100.com,6328490087
+101,100000020,Cycle World,sujaymishra@cycleworld.co.in,4050378468
+102,100000021,High Tech Sports Inc,madhu.kumar@hitechsport.com,6065470312
+103,100000022,Tires On Fire,pooja.singh@tiresonfire.co.in,7980023486
+104,100000023,MX Bike,ajaz.khan@mxbyk.com,3629731486
+105,100000024,FitnessWorld,aditya.rajput@fitnessworld.co.in,3206580974
+106,100000025,Homerun Millwork Inc.,mudassir.k@homerundubai.com,4580963184
+107,100000026,Antonio Bandolera,rehanshehzad@antoniobikes.com,1012697341
+108,100000027,Khan Cycles,sarfaraz.khan@khancycles.ae,7345697824
+109,100000028,Palm Beach Bike World,alam.sheikh@palmbeachbikes.ae,469614115
+110,100000029,A to Z Fitness,bhushan.shetty@a2zfitnes.com,6839542781
+111,100000030,Hudson SportsTec,romain.le_mason@hudsonsport.ca,6714954542
+112,100000031,Ebike 36,anthony.lebouef@ebike36.ca,2483693027
+113,100000032,Wichita Sport,lisa.felske@wichitasport.com,2094573421
+114,100000033,Move by Bike,jonathan.d.mason@movebybike.ca,4136278910
+115,100000034,TechCycle,amelie.troyat@techcycletoronto.ca,3540671320
+116,100000035,YourCycleShop,sophie.ribery@yourcycleshop.fr,7315064077
+117,100000036,Unolab Manufacturing,jorge.velez@unolabmanufacturing.com,4381762683
+118,100000037,E bike 201,joseph_gschwandtner@ebike201.fr,9703586412
+119,100000038,The Cycle Factor,george_d_grant@thecyclefactor.fr,6843585642
+120,100000039,Eiffel Bikes,theodor.monathy@eiffelbikes.fr,4203876954
+121,100000000,All For Bikes,maria.brown@all4bikes.com,622734567
+122,100000001,Amaze Bikes Inc,bob.buyer@amazebikes.com,3088530
+123,100000002,Arena Sports Inc,victor.sanchez@arenasportusa.com,3023352668
+124,100000003,Atlanta Corp Inc,franklin.jones@atlantausa.com,511403266
+125,100000004,Bike World Inc,robert_brown@bikeworlds.com,2244668800
+126,100000005,Alpha AG,bart.koenig@alphabikes.de,2511415
+127,100000006,BuchungsKreis 1010,sarah.schwind@buchungkreis-gmbh.de,9078563412
+128,100000007,Trek Cycle AG,mirjam.schmidt@trekcycle-berlin.de,149744423
+129,100000008,Tona Bikes AG,saskia.sommer@tonabikes-ag.de,7257716
+130,100000009,Meine Bicycle,dagmar.schulze@meinebicyclebayern.de,1133557799
+131,100000010,Avante Grande Bikes,jorgemontalban@avantegrande.co.uk,6789012345
+132,100000011,Bike On,johanna.esther@bikeon.co.uk,6623612804
+133,100000012,Carefree Cycles,miguel.luengo@carefreecycles.com,2589436180
+134,100000013,G&M Bicycle,isabel.nemours@gnmbikes.co.uk,4507867136
+135,100000014,Keep Cycling,igor.tarassow@keepcycling-london.co.uk,5850428367
+136,100000015,iCare Australia,alexis.harper@icareaussie.com.au,7609448173
+137,100000016,CC SportWorld,c.alfaro@ccsport.com.au,6879342945
+138,100000017,DigiPay,sven.j@digipay.com.au,2208791738
+139,100000018,TechCycle Canberra,yoshiko.kakuji@techcyclecanberra.com.au,4440238917
+140,100000019,eBike 100,alessio.galasso@ebike100.com,6328490087
+141,100000020,Cycle World,sujaymishra@cycleworld.co.in,4050378468
+142,100000021,High Tech Sports Inc,madhu.kumar@hitechsport.com,6065470312
+143,100000022,Tires On Fire,pooja.singh@tiresonfire.co.in,7980023486
+144,100000023,MX Bike,ajaz.khan@mxbyk.com,3629731486
+145,100000024,FitnessWorld,aditya.rajput@fitnessworld.co.in,3206580974
+146,100000025,Homerun Millwork Inc.,mudassir.k@homerundubai.com,4580963184
+147,100000026,Antonio Bandolera,rehanshehzad@antoniobikes.com,1012697341
+148,100000027,Khan Cycles,sarfaraz.khan@khancycles.ae,7345697824
+149,100000028,Palm Beach Bike World,alam.sheikh@palmbeachbikes.ae,469614115
+150,100000029,A to Z Fitness,bhushan.shetty@a2zfitnes.com,6839542781
+151,100000030,Hudson SportsTec,romain.le_mason@hudsonsport.ca,6714954542
+152,100000031,Ebike 36,anthony.lebouef@ebike36.ca,2483693027
+153,100000032,Wichita Sport,lisa.felske@wichitasport.com,2094573421
+154,100000033,Move by Bike,jonathan.d.mason@movebybike.ca,4136278910
+155,100000034,TechCycle,amelie.troyat@techcycletoronto.ca,3540671320
+156,100000035,YourCycleShop,sophie.ribery@yourcycleshop.fr,7315064077
+157,100000036,Unolab Manufacturing,jorge.velez@unolabmanufacturing.com,4381762683
+158,100000037,E bike 201,joseph_gschwandtner@ebike201.fr,9703586412
+159,100000038,The Cycle Factor,george_d_grant@thecyclefactor.fr,6843585642
+160,100000039,Eiffel Bikes,theodor.monathy@eiffelbikes.fr,4203876954
